@@ -24,7 +24,7 @@ def bd_print(value):
 def main():
     while True:
         try:
-            clientz = Client() #proxy = "http://user126128:5yrioa@84.32.15.126:3014") - использовать прокси при желании
+            clientz = Client(signature_key="DFA5ED192DDA6E88A12FE12130DC6206B1251E44", device_key="E7309ECC0953C6FA60005B2765F99DBBC965C8E9") #proxy = "http://user126128:5yrioa@84.32.15.126:3014") - использовать прокси при желании
             clientz.login(email = input("E-mail: "), password = input("Пароль: "))
             gd_print(f"Вошли в аккаунт '{clientz.profile.username}'")
             break
