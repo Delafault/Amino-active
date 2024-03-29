@@ -1,2 +1,2 @@
 # Amino-active
-A script to get activity in a community.
+A script to send activity in a community.
